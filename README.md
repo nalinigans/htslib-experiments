@@ -8,6 +8,7 @@ On MacOS
 brew install xz gsl
 git clone https://github.com/samtools/htslib.git
 git clone https://github.com/samtools/bcftools.git # Optional, but nice to have
+cd /path/to/htslib
 ./configure
 make
 ```
