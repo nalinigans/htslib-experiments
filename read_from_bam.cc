@@ -21,7 +21,7 @@ int main(int argc, char *argv[]){
   
   while(sam_read1(fp_in,bamHdr,aln) > 0){
           
-    int32_t pos = aln->core.pos +1; //left most position of alignment in zero based coordianate (+1)
+    int32_t pos = aln->core.pos +1; //left most position of alignment in zero based coordinate (+1)
     char *chr = bamHdr->target_name[aln->core.tid] ; //contig name (chromosome)
     uint32_t len = aln->core.l_qseq; //length of the read.
     
