@@ -4,7 +4,6 @@ Strictly experimental code
 On MacOS
 
 1. Build htslib/bcftools from master
-
 * brew install xz gsl
 * git clone https://github.com/samtools/htslib.git
 * git clone https://github.com/samtools/bcftools.git
