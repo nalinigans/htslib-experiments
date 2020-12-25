@@ -1,4 +1,4 @@
-# htslib-experiments ![example workflow file path](https://github.com/actions/hello-world/workflows/.github/workflows/main.yml/badge.svg)
+# htslib-experiments
 Strictly experimental code
 
 On MacOS
